@@ -1,0 +1,47 @@
+.header {
+  padding-top: 100px;
+  background: #ffe8a1;
+  height: 100vh;
+  font-size: 24px;
+  color: blue;
+
+  &__title {
+    font: 700 36px $font;
+    color: #2f5bb7;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font: 600 26px/34px $font;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+
+  &__button {
+    font-weight: 700;
+    color: #6f42c1;
+  }
+}
+
+  #origin,
+  #text {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    font: 400 24px $font;
+  }
+
+  #text {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
